@@ -31,3 +31,9 @@ main {
 	margin: 3px 0;
 	vertical-align: middle;
 }
+.erro_404 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
