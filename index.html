@@ -1,105 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Bruno Bonavigo</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="assets/img/favicon.ico" rel="icon" type="image/x-icon"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-		<link href="https://bonavigo.net/" rel="canonical"/>
-		<meta name="theme-color" content="#1F1AA2">
-		<meta name="keywords" content="bruno, bonavigo, php, js, materializecss, materialize">
-		<meta content="@BrunoBonavigo" name="twitter:site"/>
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@BrunoBonavigo">
-		<meta name="twitter:creator" content="@BrunoBonavigo">
-		<meta property="og:site_name" content="Bruno Bonavigo">
-		<meta property="og:locale" content="pt_BR"/>
-		<meta property="og:type" content="website"/>
-		<meta property="og:title" content="Bruno Bonavigo"/>
-		<meta property="og:description" content="O site pessoal de Bruno Bonavigo."/>
-		<meta property="og:url" content="https://bonavigo.net/"/>
-		<meta property="og:image" content="https://bonavigo.net/assets/img/logo.png"/>
-		<script src="https://kit.fontawesome.com/5db384e8a3.js" crossorigin="anonymous"></script>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/bonavigo.css">
-		<script src="assets/js/EasyAJAX.js"></script>
-	</head>
-	<body class="grey lighten-4">
+<html>
+<head>
+	<title>Bruno Bonavigo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="assets/img/favicon.ico" rel="icon" type="image/x-icon"/>
+	<meta name="theme-color" content="#373E40">
+	<meta name="keywords" content="bruno, bonavigo, php, webdev, javascript, js">
+	<meta content="@BrunoBonavigo" name="twitter:site"/>
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@BrunoBonavigo">
+	<meta name="twitter:creator" content="@BrunoBonavigo">
+	<meta property="og:site_name" content="Bruno Bonavigo">
+	<meta property="og:locale" content="pt_BR"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Site"/>
+	<meta property="og:description" content="Meu site pessoal!"/>
+	<meta property="og:url" content="https://bonavigo.net/cards"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bonavigo.css">
+</head>
+<body>
+	<nav>
+		Bruno Bonavigo
+	</nav>
+	<main>
 		<header>
-			<nav class="blue darken-4">
-				<div class="nav-wrapper container">
-					<a href="#" class="brand-logo">Bruno Bonavigo</a>
-				</div>
-			</nav>
+			<h4>Seja bem-vindo ao meu site!</h4>
+			<p>Aqui é o lugar que eu uso para exibir meus repositórios e mostrar um pouco mais sobre mim.<p>
 		</header>
-		<main>
-			<div class="container" style="margin-top:20px;">
-				<div class="card-panel">
-					<div>
-						<h4>Seja bem-vindo ao meu site!</h4>
-						<h5>Aqui é o lugar que eu uso para exibir meus repositórios e mostrar um pouco mais sobre mim.</h5>
-					</div><br>
-					<div class="chip">
-						Um pouco mais sobre mim
-					</div>
-					<div class="card-panel radius">
-						<div class="sobre_mim">
-							<h1>Meu nome é <b>Bruno Bonavigo</b>, tenho <span id="idade">x</span> anos e moro em São Paulo.</h1>
-							<h1>Meus principais hobbies são desenvolver e jogar. Gosto de vários jogos, desde Dark Souls até Fallout, Portal, Resident Evil e outros. Também jogo "Habbo Hotel", onde desenvolvo alguns sites e sistemas para uma Instituição do jogo.</h1>
-						</div>
-					</div>
-					<div class="chip">
-						Fato sobre mim
-					</div>
-					<div class="card-panel radius">
-						<div class="fato_meu">
-						</div>
-					</div>
-					<div class="chip">
-						Meu repositório pessoal
-					</div>
-					<div class="card-panel radius">
-						<div class="readme" id="readme">
-							<div class="progress">
-								<div class="indeterminate"></div>
-							</div>
-						</div>
-					</div>
-					<div class="chip">
-						Meus repositórios
-					</div>
-					<div>
-						<ul class="collection z-depth-1 radius">
-							<div id="repos">
-								<a class="black-text collection-item" href="#">
-									<div class="progress">
-										<div class="indeterminate"></div>
-									</div>
-								</a>
-							</div>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</main>
-		<footer class="page-footer blue darken-3">
-		  <div class="container">
-			<div class="row">
-			  <div class="col l6 s12">
-				<h5 class="white-text">Bruno Bonavigo</h5>
-				<p class="grey-text text-lighten-4">Criado em 2021 por <b><a class="grey-text text-lighten-4" href="https://github.com/Bonavigo">Bruno Bonavigo</a></b>.</p>
-			  </div>
-			</div>
-		  </div>
-		  <div class="footer-copyright blue darken-4">
-			<div class="container">
-				© <span id="year"></span> Bruno Bonavigo
-				<a class="grey-text text-lighten-4 right" href="https://twitter.com/BrunoBonavigo">Meu Twitter</a>
-			</div>
-		  </div>
-		</footer>
-		<script src="assets/js/main.js"></script>
-	</body>
+		<div class="chip">
+			Um pouco mais sobre mim
+		</div>
+		<section>
+			<p>Meu nome é Bruno Bonavigo, tenho 16 anos e moro em São Paulo.</p>
+			<p>Meus principais hobbies são desenvolver e jogar. Gosto de vários jogos, desde Dark Souls até Fallout, Portal, Resident Evil e outros.</p>
+		</section>
+		<div class="chip">
+			Fato
+		</div>
+		<section data-fatos="true">
+			<p>Carregando fato...</p>
+		</section>
+		<div class="chip">
+			READ.ME
+		</div>
+		<section data-readme="true">
+			<p>Carregando...</p>
+		</section>
+		<div class="chip">
+			Meus Repositórios
+		</div>
+		<section class="repos">
+			<ul data-repos="true">
+				<a href="#"><li>Carregando...</li></a>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<div class="conteudo">
+			<h4>Bruno Bonavigo</h4>
+			<p>Criado em 2021 por Bruno Bonavigo.</p>
+		</div>
+	</footer>
+	<script src="assets/js/EasyAJAX.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
 </html>

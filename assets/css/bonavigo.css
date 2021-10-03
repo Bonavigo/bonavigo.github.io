@@ -1,0 +1,151 @@
+/* Por Bruno Bonavigo, 2021. */
+
+:root {
+	--body-bgc: #f5f5f5;
+	--body-font: 'Roboto';
+
+
+	--main-bgc: #FFF;
+	--main-color: #015DB9;
+	--main-font-color: #FFF;
+	
+	--chip-bgc: #d3d3d3;
+	--chip-font-color: #686868;
+}
+
+body {
+	background-color: var(--body-bgc);
+	font-family: var(--body-font);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+nav {
+	height: 60px;
+	background-color: var(--main-color);
+	color: var(--main-font-color);
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	font-size: 1.25em;
+	width: 100vw;
+	user-select: none;
+}
+
+header {
+	margin-bottom: 1em;
+}
+
+main {
+	display: block;
+	background-color: var(--main-bgc);
+	width: 85%;
+	padding: 1.25em;
+	margin: 1.25em;
+	box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+main section:not(.repos) {
+	padding: 1.25em;
+	margin: 0 0 1em 0;
+	box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+main h4, p {
+	margin: 0 0 0.5em 0;
+}
+
+main h4 {
+	font-size: 1.25em;
+}
+
+main section h4, p {
+	margin: 0.5em 0;
+}
+
+.conteudo404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.25em;
+	height: 10em;
+}
+
+[data-readme="true"] {
+	user-select: none;
+}
+
+[data-readme="true"] h1 {
+	margin: 0 0 0.5em 0;
+}
+
+.chip {
+	display: inline-block;
+	border-radius: 15px;
+	margin: 0 0 0.75em 0;
+	font-size: 0.85em;
+	background-color: var(--chip-bgc);
+	color: var(--chip-font-color);
+	padding: 0.5em 0.75em;
+	user-select: none;
+}
+
+.emoji_fatos {
+	width: 25px;
+	height: 25px;
+	margin: 3px 0;
+	vertical-align: middle;
+}
+
+.repos {
+	margin: 0 0 1em 0;
+	box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.repos ul {
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+.repos ul a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.repos ul li {
+	padding: 1em 1.5em;
+	border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+footer {
+	width: 100%;
+	background-color: var(--main-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	padding: 1em;
+}
+
+footer .conteudo {
+	width: 85%;
+	background-color: var(--main-color);
+}
+
+footer .conteudo h4 {
+	font-size: 1.25em;
+	margin-bottom: 0.25em;
+}
+
+footer .conteudo p {
+	margin-bottom: 1em;
+}
