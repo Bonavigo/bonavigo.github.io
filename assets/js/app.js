@@ -159,7 +159,7 @@ const FRASES = [
 	},
 	{
 		foto: "https://i.imgur.com/Wv6cSDf.jpg",
-		frase: "“Lembre-se de que você tem no Céu não somente um pai, mas também uma Mãe.”",
+		frase: "“Lembre-se de que você tem no Céu não somente um Pai, mas também uma Mãe.”",
 		autor: "Padre Pio"
 	},
 	{
