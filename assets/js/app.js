@@ -119,7 +119,7 @@ const FRASES = [
 	},
 	{
 		foto: "https://i.imgur.com/YQ4fhH2.jpg",
-		frase: "“A tolerância é a virtude do homem sem convicções”",
+		frase: "“A tolerância é a virtude do homem sem convicções.”",
 		autor: "G. K. Chesterton"
 	},
 	{
