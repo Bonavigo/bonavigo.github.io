@@ -138,11 +138,6 @@ const FRASES = [
 		autor: "São João Bosco"
 	},
 	{
-		foto: "https://i.imgur.com/Kh14xfi.jpg",
-		frase: "“Dê-me apenas uma geração de boas mães cristãs e eu mudarei o mundo.”",
-		autor: "São João Crisóstomo"
-	},
-	{
 		foto: "https://i.imgur.com/wwXMOxt.jpg",
 		frase: "“A violência não é necessária para destruir uma civilização. Cada civilização morre pela indiferença aos valores únicos que a criaram.”",
 		autor: "Nicolás Gómez Dávila"
