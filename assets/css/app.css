@@ -1,0 +1,81 @@
+/* Feito por Bruno Bonavigo em 2022. */
+/* https://github.com/Bonavigo - https://twitter.com/BrunoBonavigo - https://www.instagram.com/brunobonavigo/*/
+/* Perfecto odio oderam illos inimici facti sunt mihi. */
+
+:root {
+	--body-bgc: #f5f5f5;
+	--body-font: 'Roboto';
+	--main-bgc: #FFF;
+	--main-color: #015DB9;
+	--main-font-color: #FFF;
+}
+
+* {
+	font-family: var(--body-font);
+}
+
+body {
+	background-color: var(--body-bgc);
+}
+
+a {
+	text-decoration: none;
+}
+
+.bg-azul {
+	background-color: var(--main-color) !important;
+	color: var(--main-font-color) !important;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.caixa-principal {
+	background-color: var(--main-bgc);
+	border-radius: 5px;
+	margin: 1.5rem auto;
+	padding: 1.5rem;
+	box-shadow: 2px 2px 6px 1px rgb(0 0 0 / 20%);
+}
+
+.caixa-menor {
+	background-color: var(--main-bgc);
+	border-radius: 5px;
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 2px 2px 6px 1px rgb(0 0 0 / 20%);
+}
+
+.caixa-menor p {
+	margin-bottom: 0.25rem;
+}
+
+.ultimo-paragrafo-caixa {
+	margin-bottom: 0 !important;
+}
+
+.repos-container {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.icon-repo {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+.frase-container {
+	margin: 0;
+}
+
+.bs-icon-footer {
+	margin-left: 1rem;
+}
+
+.bs-icon-footer a .bi {
+	font-size: 1.5rem;
+}
