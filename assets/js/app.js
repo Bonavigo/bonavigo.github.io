@@ -10,11 +10,6 @@ const SITE = {
 	startup() {
 		this.gerarRepositorios();
 		document.getElementById("idade").innerText = this.gerarIdade();
-		document.getElementById("fato").innerHTML = `<p class="ultimo-paragrafo-caixa">${this.gerarFato()}</p>`;
-	},
-	gerarFato() {
-		fato = FATOS[Math.floor(Math.random() * FATOS.length)];
-		return fato;
 	},
 	gerarIdade() {
 		idadeTimestamp = this.data_hoje - this.data_nascimento;
@@ -67,37 +62,7 @@ const SITE = {
 		const error = function error() {
 		}
 		easyAJAX.GET(URL, success, error);
-	},
-	gerarFrase() {
-		frase = FRASES[Math.floor(Math.random() * FRASES.length)];
-		elemento = `
-			<figure class="row frase-container">
-				<div class="col-2 d-flex justify-content-center align-items-center">
-					<img src="${frase.foto}" class="img-fluid rounded">
-				</div>
-				<div class="col-10 d-flex align-items-center">
-					<div>
-						<blockquote class="blockquote">
-							<p class="fst-italic">${frase.frase}</p>
-						</blockquote>
-						<figcaption class="blockquote-footer fs-6">
-							${frase.autor}
-						</figcaption>
-					</div>
-				</div>
-			</figure>
-		`;
-		return elemento;
-	},
+	}
 }
-
-const FATOS = [
-	"Eu gosto de história! É uma das minhas matérias preferidas. Também por influência disso, gosto de jogos de estratégia, como \"Hearts of Iron IV\" e outros da Paradox.",
-	"Comecei a programar por causa de uma espécie de RP em um jogo online! Virei amigo do <a href=\"https://github.com/SuperNando144\" target=\"_blank\">Nando</a> e ele me ensinou o básico e me ajudou a começar.",
-	"Sou ítalo-brasileiro!",
-	"Tenho mais de mil horas de jogo e 190 vitórias competitivas em Counter-Strike: Global Offensive, mas não jogo mais frequentemente, cansei de cair com pessoas malucas que ficam gritando e xingando durante o jogo 😔.",
-	"Tenho mais de cem jogos na Steam, e a grande maioria destes são jogos que peguei de graça em sites que distribuem chaves de jogos. A grande maioria nunca joguei porque são ruins!",
-	"Sou católico tradicionalista!"
-]
 
 SITE.startup();
